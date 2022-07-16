@@ -16,7 +16,7 @@ jobs:
       - name: Test
         run: dotnet test
       - name: Pack
-        run: dotnet pack -c Releaae
+        run: dotnet pack -c Release
       - name: List output
         run: ls -lR
       - name: Add Package Source
